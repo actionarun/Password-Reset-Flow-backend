@@ -7,7 +7,7 @@ import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
 
 dotenv.config();
-
+console.log("SERVER BREVO =>", process.env.BREVO_API_KEY);
 const app = express();
 
 connectDB();
