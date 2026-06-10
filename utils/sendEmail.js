@@ -14,7 +14,7 @@ const sendEmail = async (email, resetLink) => {
       new SibApiV3Sdk.SendSmtpEmail();
 
     sendSmtpEmail.sender = {
-      email: "YOUR_VERIFIED_EMAIL@gmail.com",
+      email: "actionofak@gmail.com",
       name: "Password Reset",
     };
 
